@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2? family= Bellefair & display=swap");
+
+.technologyContainer {
+  height: auto;
+  width: 100vw;
+  background-image: url("../../assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .technology {
+    display: flex;
+    gap: 40px;
+
+    .item {
+      width: 8%;
+      height: 350px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      li {
+        list-style: none;
+
+        button {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background-color: transparent;
+          border: 1px solid #ffffff;
+          color: #ffffff;
+          font-size: 1.3rem;
+          margin-bottom: 20px;
+          cursor: pointer;
+        }
+
+        button:hover {
+          background-color: #ffffff;
+          color: #000000;
+        }
+      }
+    }
+
+  }
+
+}
+
+.title {
+  margin-left: 20px;
+  color: #979494;
+
+  span {
+    color: #ffffff;
+    margin: 5px;
+  }
+}
+
+.info {
+  width: 40%;
+  height: 400px;
+
+  h3 {
+    height: 19px;
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #d0d6f9;
+  }
+
+  h2 {
+
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #ffffff;
+  }
+
+  p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #d0d6f9;
+  }
+}
+
+.img {
+  display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 80%;
+    margin-bottom: 30px;
+
+  img {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+  }
+}

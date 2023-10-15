@@ -1,0 +1,86 @@
+.crew {
+  height: auto;
+  background-image: url("../../assets/crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__left {
+    width: 40%;
+    height: 85%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+  
+    &__info {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      height: max-content;
+
+      h2 {
+        font-size: 60px;
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font-size: 38px;
+        color: gray;
+      }
+
+      p {
+        width: 90%;
+        line-height: 1.7;
+      }
+    }
+
+    span {
+      margin-right: 10px;
+      color: gray;
+    }
+
+    ul {
+      display: flex;
+      gap: 40px;
+      list-style: none;
+      li{
+        width: 18px;
+      height: 18px;
+      background-color: white;
+      cursor: pointer;
+      border-radius: 50%;
+      }
+    }
+
+    button {
+      width: 5px;
+      height: 5px;
+      background-color: white;
+      color: white;
+      cursor: pointer;
+      border: none;
+      border-radius: 50%;
+    }
+  }
+
+  .crew__right {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 60%;
+    padding: 30px;
+    margin-bottom: 30px;
+    img {
+      width: 350px;
+      height: 400px;
+      object-fit: contain;
+    }
+  }
+}
